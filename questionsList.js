@@ -15,7 +15,7 @@ const questions = [
         name: 'managerEmail',
     },
     {
-        type: 'input',
+        type: 'number',
         messages: 'What is managers office number',
         name: 'officeNumber',
     },
