@@ -51,7 +51,7 @@ const questions = [
     },
     {
         type: 'input',
-        messages: 'Wat is interns email?',
+        messages: 'What is interns email?',
         name: 'internEmail',
     },
     {
@@ -62,6 +62,4 @@ const questions = [
 
 ]
 
-module.exports = {
-    questions
-};
+module.exports = questions;

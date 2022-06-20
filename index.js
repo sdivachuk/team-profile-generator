@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-const Questions = require('./questions');
+const questions = require('./questionsList.js');
 
 inquirer.prompt(questions).then((answers) => {
     console.log(answers);
