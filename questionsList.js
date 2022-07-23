@@ -52,6 +52,16 @@ const addEngineer = [
         message: 'What is engineers GitHub username?',
         name: 'engineerGitHub',
     },
+    {
+        type: 'list',
+        message: 'Would you like to add another team member?',
+        name: 'addMember',
+        choices: [
+            'yes, add engineer',
+            'yes, add intern',
+            'no, I am finished adding team members'
+        ],
+    },
 ]
 
 const addIntern = [
@@ -75,8 +85,16 @@ const addIntern = [
         message: 'What is interns school?',
         name: 'internSchool',
     },
+    {
+        type: 'list',
+        message: 'Would you like to add another team member?',
+        name: 'addMember',
+        choices: [
+            'yes, add engineer',
+            'yes, add intern',
+            'no, I am finished adding team members'
+        ],
+    },
 ]
 
-module.exports = questions;
-module.exports = addEngineer;
-module.exports = addIntern;
+export {questions, addEngineer, addIntern}
