@@ -1,0 +1,18 @@
+.container-fluid {
+    color: white;
+}
+
+.card-header {
+    background-color: royalblue;
+    color: white;
+}
+
+.card{
+    margin: 4px;
+    border-color: black;
+    border-radius: 8px;
+}
+
+.jumbotron {
+    background-color: red;
+}
