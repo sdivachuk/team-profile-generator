@@ -1,23 +1,23 @@
-const questions = [
+const addInternQuestions = [
     {
         type: 'input',
-        message: 'What is the team managers name? ',
-        name: 'managerName',
+        message: 'What is interns name?',
+        name: 'internName',
     },
     {
         type: 'input',
-        message: 'What is team managers employee ID?',
-        name: 'managerID',
+        message: 'What is interns ID?',
+        name: 'internID',
     },
     {
         type: 'input',
-        message: 'What is managers email?',
-        name: 'managerEmail',
+        message: 'What is interns email?',
+        name: 'internEmail',
     },
     {
-        type: 'number',
-        message: 'What is managers office number',
-        name: 'officeNumber',
+        type: 'input',
+        message: 'What is interns school?',
+        name: 'internSchool',
     },
     {
         type: 'list',
@@ -31,5 +31,4 @@ const questions = [
     },
 ]
 
-
-module.exports = questions;
+module.exports = addInternQuestions;
