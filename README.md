@@ -37,8 +37,10 @@ WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 
 ## Visuals
-- [video]()
+![MyTeam](./img/My%20Team.png)
+
+- [video](https://drive.google.com/file/d/1LkQDRJUdAnVCMqp9u-PXUuRs7W_NAIVP/view)
 
 ## Resources
-- [Live Site](https://sdivachuk.github.io/team-profile-generator/)
+
 - [Repository](https://github.com/sdivachuk/)
